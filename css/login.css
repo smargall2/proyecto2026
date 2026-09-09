@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f6fa;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.87)),
+        url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.navbar{
+    background: #000;
+    height: 90px;      
+    padding: 0 20px;
+}
+
+.logo{
+    max-height:50px;  
+    width: auto;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.titulo span {
+    color: #FFC107;
+}
+
+.login-card {
+    background: white;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .25);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.btn-login {
+    background: #1b5299;
+    color: white;
+    height: 55px;
+    font-size: 20px;
+}
+
+.btn-login:hover {
+    background: #205aa5;
+    color: white;
+}
+
+.feature {
+    text-align: center;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    transition: .3s;
+    height: 100%;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .15);
+}
+
+.feature i {
+    font-size: 50px;
+    color: #0D6EFD;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #c4b7cb;
+    color: white;
+}
+
+@media(max-width:768px) {
+
+    .titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descripcion {
+        text-align: center;
+    }
+
+    .login-card {
+        margin-top: 40px;
+    }
+
+}
